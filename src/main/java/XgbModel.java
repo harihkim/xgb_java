@@ -11,7 +11,7 @@ import java.util.Objects;
 
 public class XgbModel {
     public static void main(String[] args) {
-        Table data = Table.read().csv("../../../data/drug200.csv");
+        Table data = Table.read().csv("data/drug200.csv");
         System.out.println(data.first(5));
 
         StringColumn drug = data.stringColumn("Drug");
