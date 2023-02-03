@@ -183,7 +183,7 @@ public class XgbModel {
         }
 
 
-        HashMap<String, Object> params = new HashMap<String, Object>();
+        HashMap<String, Object> params = new HashMap<>();
         params.put("eta", 0.3);
         params.put("max_depth", 5);
         params.put("num_class", 5);
